@@ -20,14 +20,14 @@ param osDiskSizeGB int = 0
 
 @description('The number of nodes for the cluster')
 @minValue(1)
-@maxValue(50)
+@maxValue(10)
 param agentCount int = 3
 
 @description('The size of the Virtual Machine')
-param agentVMSize string = 'Standard_D8s_v4'
+param agentVMSize string = 'Standard_B2ms'
 
 @description('User name for the Linux Virtual Machines')
-param linuxAdminUsername string = 'arcdemo'
+param linuxAdminUsername string = 'arcdemolinux'
 
 @description('Configure all linux machines with the SSH RSA public key string. Your key should include three parts, for example \'ssh-rsa AAAAB...snip...UcyupgH azureuser@linuxvm\'')
 param sshRSAPublicKey string
