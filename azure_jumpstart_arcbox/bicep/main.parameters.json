@@ -15,7 +15,7 @@
             "value": "<your spn tenant id>"
         },
         "windowsAdminUsername": {
-            "value": "arcdemo"
+            "value": "<your windows admin account name>"
         },
         "windowsAdminPassword": {
             "value": "<your windows admin password>"
@@ -28,6 +28,15 @@
         },
         "deployBastion": {
             "value": false
+        },
+        "githubAccount": {
+            "value": "<your Github account name>"
+        },
+        "githubBranch": {
+            "value": "<your Github branch name>"
+        },
+        "githubUser": {
+            "value": "<your unique Log Analytics workspace name>"
         }
     }
 }
